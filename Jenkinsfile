@@ -15,7 +15,7 @@ pipeline {
 
     stage('Install npm') {
       steps {
-        sh 'curl -s https://deb.nodesource.com/setup_16.x | bash && apt install nodejs -y'
+        sh 'curl -s https://deb.nodesource.com/setup_16.x | bash'
       }
     }
 
