@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('Install npm') {
+    stage('Build') {
       steps {
-        sh 'curl -s https://deb.nodesource.com/setup_16.x | bash'
+        sh 'docker build -f frontend/Dockerfile .'
       }
     }
 
