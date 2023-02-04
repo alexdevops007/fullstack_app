@@ -16,7 +16,7 @@
 
 ### Run the Front-End
 
-1. Clone this repo
+1. Clone this repository
 1. `cd curriculum-front`
 1. `npm i`
 1. `npm run serve`
