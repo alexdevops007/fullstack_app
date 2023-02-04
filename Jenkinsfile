@@ -15,7 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'docker build -f frontend/Dockerfile .'
+        sh 'cd frontend && docker build -f Dockerfile .'
       }
     }
 
